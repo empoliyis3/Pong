@@ -22,6 +22,9 @@ def clickStart(x, y):
         mainCanvas.clear()
         startGame.hideturtle()
 
+        #Get Rid of explaning turtles
+        explain1.clear()
+        explain2.clear()
         # Moves Paddle A(1) up and down the y axis with (w) and (s) key respectively
         screen.onkeypress(paddleAUp, "w")
         screen.onkeypress(paddleADown, "s")
@@ -196,6 +199,19 @@ mainTitle.hideturtle()
 mainTitle.penup()
 mainTitle.sety(270)
 mainTitle.write("Main Menu", align="center", font=MENU_FONT)
+
+#Creating explaining turtles
+explain1 = Turtle()
+explain1.hideturtle()
+explain1.penup()
+explain1.sety(-100)
+explain1.write("Left Paddle Movement: W & S", align="center", font=SMALL_FONT)
+
+explain2 = Turtle()
+explain2.hideturtle()
+explain2.penup()
+explain2.sety(-200)
+explain2.write("Right Paddle Movement: Up Arrow & Down Arrow",align="center", font=SMALL_FONT)
 
 # Create Start Option
 startGame = Turtle()
