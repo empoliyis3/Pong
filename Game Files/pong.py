@@ -3,7 +3,7 @@ from time import sleep
 
 SMALL_FONT = ("Courier", 30, "normal")
 BIG_FONT = ("Courier", 60, "normal")
-MENU_FONT = ("a Absolute Empire", 60, "normal")
+MENU_FONT = ("Aerial", 60, "normal")
 
 WINDOW_WIDTH, WINDOW_HEIGHT = 1920, 1080
 
