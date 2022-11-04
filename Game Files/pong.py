@@ -1,4 +1,4 @@
-from turtle import Screen, Turtle, register_shape
+from turtle import Screen, Turtle
 from time import sleep
 
 SMALL_FONT = ("Courier", 30, "normal")
@@ -201,9 +201,8 @@ mainTitle.write("Main Menu", align="center", font=MENU_FONT)
 startGame = Turtle()
 startGame.penup()
 startGame.sety(100)
-register_shape("start.gif")
-startGame.shape('start.gif')
-startGame.shapesize(20)
+screen.addshape("D:\Pong Game\Pong\Game Files\start.gif")
+startGame.shape("D:\Pong Game\Pong\Game Files\start.gif")
 # Key Binding Main Menu
 screen.onscreenclick(clickStart)
 
