@@ -201,8 +201,8 @@ mainTitle.write("Main Menu", align="center", font=MENU_FONT)
 startGame = Turtle()
 startGame.penup()
 startGame.sety(100)
-screen.addshape("\\Pong Game\\Pong\\Game Files\\start.gif")
-startGame.shape("\\Pong Game\\Pong\\Game Files\\start.gif")
+screen.addshape("\\Pong\\Game Files\\start.gif")
+startGame.shape("\\Pong\\Game Files\\start.gif")
 # Key Binding Main Menu
 screen.onscreenclick(clickStart)
 
